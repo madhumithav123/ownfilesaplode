@@ -1,0 +1,40 @@
+git connect files
+
+git config --global user.name "madhumithaweb"
+git cinfig --global user.name "email"
+
+
+creat two file1 file2
+
+git init . /antha file la track pannum/
+ls -a/.git file1 file2/
+
+git status /git status pakka/
+
+git add /untrack ka irukka file track panna git add used/
+
+git rm --cached /untrack panna/
+ 
+last=git commit -m ** /file la commit panna/
+
+git log /commit id ellam kattum/
+
+git restore file1 /first panna code thirumma venum na this is used/
+
+git log --online/online la commit code kattum/
+
+git add./idhu ellam file laium cimmit pannum/
+
+reset ->seguencial commit used ex;c1,c2,c3 -> c1c2,c2,c3
+two type->hard reset,soft reset,reset revertc1c3,
+
+git reset --hard (commit id)/commit ta delete pannum
+git reset --soft/delete pannadhu one steo pinnadi pogum
+git revert (commit id)/spacific commit id removed
+
+
+
+
+
+
+
