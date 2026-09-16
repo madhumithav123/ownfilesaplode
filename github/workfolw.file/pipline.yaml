@@ -1,0 +1,13 @@
+name: madhu pipline 01
+ on:
+  push:
+   branch: ["main"]
+
+job:
+ demo:
+  run-on: [self-hoster]
+
+step:
+ name: print the values
+ run: echo"print successfully"
+ 
