@@ -1,0 +1,13 @@
+name: demo pipeline 1
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  demo1:
+    runs-on: [self-hoster]
+
+    steps:
+      - name: print a value
+        run: echo "first pipeline create successfully"
